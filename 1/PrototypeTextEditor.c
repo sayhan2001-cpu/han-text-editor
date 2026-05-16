@@ -73,13 +73,6 @@ void readText(){
             printf("%s",text); // Reads the text inputted in a file
 
         }
-
-/*    rewind(fPtr);//Brings the file pointer to the original point
-
-        while(!feof(stdin)){
-            fgets(text,SIZE,stdin); //Takes the text input
-            fputs(text,fPtr);
-        }*/
     }
     else{
         puts("We cannot open your file.\n");
